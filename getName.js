@@ -1,7 +1,7 @@
-const getName = (randomObject) => {
-    const randomObject = {
-    name:'booger',
-    age:'booger',
-    weight:'booger'}
-  return randomObject[name];
+const getName = (obj) => {
+  const nameProp = obj['name'];
+  return nameProp;
 };
+
+
+module.exports = getName;
