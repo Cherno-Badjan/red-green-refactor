@@ -1,6 +1,6 @@
 const getName = (obj) => {
-  const nameProp = obj.name;
-  return nameProp;
+  const { name } = obj;
+  return name;
 };
 
 
