@@ -8,4 +8,13 @@ describe('getName function', () => {
     expect(nameProp).toEqual('spot');
 
   });
+  it('takes in object and returns value of name property', () => {
+    const character = { _id: '5cf5679a915ecad153ab68c9', name: 'Aang' };
+
+
+    const nameProp = getName(character);
+
+    expect(nameProp).toEqual('Aang');
+
+  });
 });
